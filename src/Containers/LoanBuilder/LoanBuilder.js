@@ -34,14 +34,11 @@ class LoanBuilder extends Component {
         const numMonths = this.state.duration.value;
         axios.get(`https://ftl-frontend-test.herokuapp.com/interest?amount=${amount}&numMonths=${numMonths}`)
             .then(res => {
-                console.log(res.data)
                 this.setState({statement: res.data, loading: false})
             })
             .catch(err => {
-                console.log(err)
                 this.setState({loading: false})
             })
-            console.log(this.state.loading)
     }
     amountChangedHandler = (event) => {
         const amount = {
@@ -50,7 +47,6 @@ class LoanBuilder extends Component {
         
         const updatedAmount = event.target.value;
         amount.value = updatedAmount;
-        console.log("your slide", amount)
         this.setState({amount: amount});
         // this.doCalculation()
         this.doCalculation()
@@ -62,7 +58,6 @@ class LoanBuilder extends Component {
         
         const updatedDuration = event.target.value;
         duration.value = updatedDuration;
-        console.log("your slide", duration)
         this.setState({duration: duration});
         this.doCalculation()
     }
