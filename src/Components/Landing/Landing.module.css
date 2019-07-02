@@ -1,0 +1,46 @@
+.landing {
+    width: 100%;
+    height: calc(100vh - 50px);
+    padding: 40px 50px;
+    background: #fff;
+    position: relative;
+}
+.dark, .light {
+    font-size: 3.5rem;
+    text-align: left;
+    width: 57%;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 35px 0 0;
+}
+.dark {
+    color: #000;
+}
+.light {
+    width: 46%;
+    color: #11a5a1;
+}
+.landing .img {
+    width: 84%;
+    margin-left: auto;
+    margin-top: 45px;
+    padding-right: 100px;
+}
+.landing .img img {
+    width: 100%;
+}
+@media screen and (min-width: 375px) {
+    .landing .img {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 866px) {
+    .landing .img {
+        width: 50%;
+        position: absolute;
+        top: 30%;
+        right: 11%;
+        margin-left: 0;
+        padding-right: 0;
+    }
+}

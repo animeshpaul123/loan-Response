@@ -1,0 +1,46 @@
+.InputSlider {
+    width: 85%;
+    margin: 72px auto;
+}
+.InputContainer  * {
+    display: inline-block;
+}
+.InputContainer span {
+    margin: 0 10px;
+    vertical-align: sub;
+    font-size: 18px;
+}
+.InputSlider p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.InputSlider .Slide {
+    appearance: none;
+    width: 74%;
+    height: 5px;
+    background: #ccc;
+    outline: none;
+}
+.InputSlider .Slide::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgb(20, 168, 218);
+}
+.InputSlider .Slide::-webkit-slider-thumb:hover,
+.InputSlider .Slide::-webkit-slider-thumb:active {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+/* .InputSlider .Slide::-moz-range-thumb {
+    appearance: none;
+    -moz-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgb(20, 168, 218);
+} */

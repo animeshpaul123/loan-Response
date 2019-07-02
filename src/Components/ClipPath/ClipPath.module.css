@@ -1,0 +1,9 @@
+.clipPath {
+    clip-path: polygon(0px 100%,100% 100%,429px 68px,0px 0px);
+    height: 150vh;
+    width: 100%;
+    background: #bededd;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}

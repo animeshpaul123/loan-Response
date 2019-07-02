@@ -1,0 +1,33 @@
+.LoanStatement {
+    width: 72%;
+    box-sizing: border-box;
+    padding: 40px 20px 20px;;
+    margin: 150px auto 0;;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+}
+.loadingOn {
+    width: 50%;
+    height: 200px;
+    margin: 200px auto 0;
+}
+.LoanStatement p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0 0 36px;
+}
+.LoanStatement p span {
+    float: right;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    bottom: 8px;
+    color: #000;
+}
+@media screen and (min-width: 1440px) {
+    .LoanStatement {
+        width: 50%;
+    }
+}

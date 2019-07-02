@@ -1,0 +1,27 @@
+.LoanBuilder {
+    position: relative;
+    padding-top: 150px;
+}
+.card {
+    width: 60%;
+    margin: 0 auto;
+    background: #313336;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.94;
+    box-shadow: 0 5px 34px rgba(0, 0, 0, 0.6);
+}
+.title {
+    font-size: 30px;
+    margin-bottom: 53px;
+    text-transform: capitalize;
+}
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 34%;
+    }
+    /* .LoanBuilder {
+        padding-top: 400px;
+    } */
+}
