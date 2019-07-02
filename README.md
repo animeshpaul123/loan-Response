@@ -1,11 +1,4 @@
-`Loan Response`
-
-An app to get interest rate for your loan amount:<b>
-
-## Available Scripts
-
-In the project directory, you can run:
-
+## An app to get interest rate for your loan amount:<b>
 
 ### `npm start`
 
