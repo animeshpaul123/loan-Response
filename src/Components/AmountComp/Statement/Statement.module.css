@@ -1,10 +1,11 @@
 .LoanStatement {
-    width: 72%;
+    width: 83%;
     box-sizing: border-box;
-    padding: 40px 20px 20px;;
-    margin: 150px auto 0;;
+    padding: 40px 20px 20px;
+    margin: 190px auto 0;
+    padding: 36px 17px 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
     border: 1px solid #ccc;
 }
 .loadingOn {
@@ -13,18 +14,37 @@
     margin: 200px auto 0;
 }
 .LoanStatement p {
-    font-size: 22px;
+    font-size: 13px;
     font-weight: 500;
     text-align: left;
     margin: 0 0 36px;
 }
 .LoanStatement p span {
     float: right;
-    font-size: 36px;
+    font-size: 15px;
     font-weight: 700;
-    position: relative;
-    bottom: 8px;
     color: #000;
+}
+@media screen and (min-width: 768px) {
+    .LoanStatement p span {
+        float: right;
+        font-size: 36px;
+    }
+    .LoanStatement {
+        padding: 46px 37px 20px;
+    }
+    .LoanStatement p {
+        font-size: 22px;
+    }
+    .LoanStatement p span {
+        font-size: 36px;
+        position: relative;
+        bottom: 8px;
+    }
+    .LoanStatement {
+        width: 72%;
+        margin: 100px auto 0;
+    }
 }
 @media screen and (min-width: 1440px) {
     .LoanStatement {

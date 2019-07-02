@@ -18,23 +18,3 @@
     cursor: pointer;
 
 }
-/* @media (min-width: 500px) {
-    .NavigationItem {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        width: auto;
-    }
-    .NavigationItem a {
-        color: #fff;
-        text-align: center;
-        height: 100%;
-    }
-    .NavigationItem a:hover,
-    .NavigationItem a:active,
-    .NavigationItem a.active {
-        color: rgb(30, 152, 213);
-        cursor: pointer;
-    
-    }
-} */
